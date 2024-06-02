@@ -6,6 +6,7 @@ import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import HomePage from './components/HomePage';
 import Dashboard from './components/Dashboard';
+import ElectionsPage from './components/ElectionsPage';
 import Header from './components/Header';
 import './App.css'; // Importer le fichier CSS global
 
@@ -42,6 +43,7 @@ function App() {
             <Route path="/register" element={<RegisterPage />} />
             <Route path="/home" element={<HomePage />} />
             <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/elections" element={<ElectionsPage />} />
           </Routes>
         </Router>
       </ThemeProvider>
